@@ -12,19 +12,18 @@
 
 ### 🧑‍💻 About Me
 
-```javascript
+```js
 const developer = {
   name    : "SUPER_POKE",
   username: "hermantaufiq",
   role    : "Full Stack Developer",
-  location: "Central Java, Indonesia 🇮🇩",
+  location: "Central Java, Indonesia",
   focus   : ["Laravel", "AI", "Web Dev"],
   passion : "Building impactful solutions",
-  available: true, // open for hire ✅
+  hire    : true,
 };
-
-console.log("Let's build something awesome! 🚀");
-` `` ← hapus spasi ini
+console.log("Let's build something awesome!");
+```
 
 </td>
 <td width="48%" valign="top" align="center">
@@ -141,14 +140,3 @@ console.log("Let's build something awesome! 🚀");
 **🔥 Keep learning, keep building, keep shipping!**
 
 </div>
-```
-
----
-
-**Cara paste:**
-1. Buka `github.com/hermantaufiq/hermantaufiq`
-2. Klik **"creating a new file"** → ketik nama file: `README.md`
-3. **Select All & paste** kode di atas
-4. Klik **"Commit changes"**
-
-Selesai! Fitur yang langsung jalan tanpa upload file apapun: typing animation bergerak, dark/light mode otomatis, stats, streak, graph, trophy, dan profile views counter. 🎉
