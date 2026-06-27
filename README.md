@@ -1,46 +1,41 @@
 <div align="center">
 
-# Hi there, I'm <span style="color:#a855f7">SUPER_POKE</span> 👋
-
-**Full Stack Web Developer • Laravel Enthusiast • AI Explorer**
-
-[![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
-[![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://javascript.com)
-[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://mysql.com)
-[![AI](https://img.shields.io/badge/AI-412991?style=for-the-badge&logo=openai&logoColor=white)](#)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=800&color=A855F7&center=true&vCenter=true&multiline=true&width=600&height=60&lines=Full+Stack+Developer+%7C+Laravel+%7C+AI+Explorer;Code+%E2%80%A2+Build+%E2%80%A2+Learn+%E2%80%A2+Repeat+%F0%9F%9A%80;Building+impactful+solutions+%F0%9F%92%A1)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
-<table>
+<table width="100%">
 <tr>
-<td valign="top" width="55%">
+<td width="52%" valign="top">
 
 ### 🧑‍💻 About Me
 
 ```javascript
 const developer = {
-  name: "SUPER_POKE",
-  role: "Full Stack Developer",
-  focus: [
-    "Laravel",
-    "AI",
-    "Web Development"
-  ],
-  passion: "Building impactful solutions",
+  name    : "SUPER_POKE",
+  username: "hermantaufiq",
+  role    : "Full Stack Developer",
+  location: "Central Java, Indonesia 🇮🇩",
+  focus   : ["Laravel", "AI", "Web Dev"],
+  passion : "Building impactful solutions",
+  available: true, // open for hire ✅
 };
 
 console.log("Let's build something awesome! 🚀");
-```
+` `` ← hapus spasi ini
 
 </td>
-<td valign="top" width="45%">
+<td width="48%" valign="top" align="center">
 
-### 📊 Stats
+### 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hermantaufiq&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=a855f7&text_color=c9d1d9)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=hermantaufiq&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=a855f7&text_color=c9d1d9">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=hermantaufiq&show_icons=true&theme=default&hide_border=true&title_color=a855f7&icon_color=a855f7">
+  <img src="https://github-readme-stats.vercel.app/api?username=hermantaufiq&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=a855f7" width="100%"/>
+</picture>
 
 </td>
 </tr>
@@ -50,55 +45,110 @@ console.log("Let's build something awesome! 🚀");
 
 ### 📅 Contribution Activity
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=hermantaufiq&theme=github-dark&hide_border=true&bg_color=0d1117&color=a855f7&line=a855f7&point=ffffff)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=hermantaufiq&theme=github-dark&hide_border=true&bg_color=0d1117&color=a855f7&line=a855f7&point=ffffff&area=true">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=hermantaufiq&theme=minimal&hide_border=true&color=a855f7&line=a855f7&point=a855f7&area=true">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=hermantaufiq&theme=github-dark&hide_border=true&bg_color=0d1117&color=a855f7&line=a855f7&point=ffffff&area=true" width="100%"/>
+</picture>
 
 ---
 
+<div align="center">
 <table>
 <tr>
-<td valign="top" width="50%">
+<td align="center" width="50%">
 
-### 🗂️ Pinned Projects
+### 🔥 Streak
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=hermantaufiq&theme=github-dark-blue&hide_border=true&background=0d1117&ring=a855f7&fire=a855f7&currStreakLabel=a855f7&sideLabels=8b949e&dates=8b949e">
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=hermantaufiq&theme=default&hide_border=true&ring=a855f7&fire=a855f7&currStreakLabel=a855f7">
+  <img src="https://streak-stats.demolab.com?user=hermantaufiq&theme=github-dark-blue&hide_border=true&background=0d1117&ring=a855f7&fire=a855f7" width="100%"/>
+</picture>
+
+</td>
+<td align="center" width="50%">
+
+### 🧠 Top Languages
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=hermantaufiq&layout=donut&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=a855f7">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=hermantaufiq&layout=donut&theme=default&hide_border=true&title_color=a855f7">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hermantaufiq&layout=donut&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=a855f7" width="100%"/>
+</picture>
+
+</td>
+</tr>
+</table>
+</div>
+
+---
+
+### 🗂️ Featured Projects
+
+<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
 
 **[🤖 ai-expense-tracker](https://github.com/hermantaufiq/ai-expense-tracker)**
 > AI-Powered Expense Tracker built with Laravel 11 and Tailwind CSS.
 
 ![Blade](https://img.shields.io/badge/Blade-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-⭐ 3 · 🍴 1
+![Stars](https://img.shields.io/github/stars/hermantaufiq/ai-expense-tracker?style=flat-square&color=a855f7&labelColor=161b22)
+![Forks](https://img.shields.io/github/forks/hermantaufiq/ai-expense-tracker?style=flat-square&color=a855f7&labelColor=161b22)
 
----
+</td>
+<td width="50%" valign="top">
 
 **[🏘️ smart-village-monitoring-system](https://github.com/hermantaufiq/smart-village-monitoring-system)**
 > Smart Village Monitoring System for community data and development tracking.
 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-⭐ 2 · 🍴 1
-
-</td>
-<td valign="top" width="50%">
-
-### 🧠 Top Languages
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hermantaufiq&layout=donut&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=a855f7)
+![Stars](https://img.shields.io/github/stars/hermantaufiq/smart-village-monitoring-system?style=flat-square&color=a855f7&labelColor=161b22)
+![Forks](https://img.shields.io/github/forks/hermantaufiq/smart-village-monitoring-system?style=flat-square&color=a855f7&labelColor=161b22)
 
 </td>
 </tr>
 </table>
+</div>
 
 ---
-
-<div align="center">
 
 ### 📬 Connect With Me
 
-[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hermantaufiq502@gmail.com)
-[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://hermantaufiq.dev)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/gateway_502)
+<div align="center">
 
----
+[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hermantaufiq502@gmail.com)
+[![Website](https://img.shields.io/badge/Portfolio-a855f7?style=for-the-badge&logo=About.me&logoColor=white)](https://hermantaufiq.dev)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/gateway_502)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hermantaufiq)
+
+<br/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=hermantaufiq&color=a855f7&style=flat-square&label=Profile+Views)
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=hermantaufiq&theme=darkhub&no-frame=true&column=4&margin-w=8">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=hermantaufiq&theme=flat&no-frame=true&column=4&margin-w=8">
+  <img src="https://github-profile-trophy.vercel.app/?username=hermantaufiq&theme=darkhub&no-frame=true&column=4"/>
+</picture>
+
+<br/><br/>
 
 **🔥 Keep learning, keep building, keep shipping!**
 
 </div>
+```
+
+---
+
+**Cara paste:**
+1. Buka `github.com/hermantaufiq/hermantaufiq`
+2. Klik **"creating a new file"** → ketik nama file: `README.md`
+3. **Select All & paste** kode di atas
+4. Klik **"Commit changes"**
+
+Selesai! Fitur yang langsung jalan tanpa upload file apapun: typing animation bergerak, dark/light mode otomatis, stats, streak, graph, trophy, dan profile views counter. 🎉
