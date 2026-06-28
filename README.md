@@ -1,9 +1,5 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/hermantaufiq/hermantaufiq/main/header.svg" width="100%" alt="header"/>
-
-<br/>
-
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=2500&pause=800&color=A855F7&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=50&lines=Full+Stack+Developer+%7C+Laravel+%7C+AI;Code+%E2%80%A2+Build+%E2%80%A2+Learn+%E2%80%A2+Repeat+%F0%9F%9A%80;Building+impactful+solutions+%F0%9F%92%A1;Open+for+hire+%E2%9C%85)](https://git.io/typing-svg)
 
 </div>
@@ -31,7 +27,9 @@ console.log("Let's build something awesome! 🚀");
 
 <div align="center">
 
-![Stats](https://github-readme-stats.vercel.app/api?username=hermantaufiq&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=a855f7&text_color=c9d1d9)&nbsp;&nbsp;![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hermantaufiq&layout=donut&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=a855f7)
+![Stats](https://github-readme-stats.vercel.app/api?username=hermantaufiq&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=a855f7&text_color=c9d1d9)
+
+![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hermantaufiq&layout=donut&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=a855f7)
 
 </div>
 
