@@ -34,7 +34,13 @@ console.log("Let's build something awesome! 🚀");
   <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="180" alt="Bongo Cat Coding" />
   <br/><br/>
 
-  **🎨 Frontend**<br/>
+ <div align="center">
+  
+
+
+  <!-- FRONTEND (DENGAN ANIMASI TEKS BERJALAN) -->
+  [![Frontend](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2000&pause=1000&color=A855F7&vCenter=true&width=300&height=35&lines=🎨+Frontend+Skills;HTML,+CSS,+JavaScript;React+%26+Tailwind)](https://git.io/typing-svg)
+  <br/>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
@@ -43,7 +49,9 @@ console.log("Let's build something awesome! 🚀");
   
   <br/><br/>
   
-  **⚙️ Backend & Database**<br/>
+  <!-- BACKEND (DENGAN ANIMASI TEKS BERJALAN) -->
+  [![Backend](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2000&pause=1000&color=A855F7&vCenter=true&width=300&height=35&lines=⚙️+Backend+%26+Database;Node.js,+Express;MySQL+%26+MongoDB)](https://git.io/typing-svg)
+  <br/>
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
@@ -51,12 +59,15 @@ console.log("Let's build something awesome! 🚀");
   
   <br/><br/>
   
-  **🧰 Tools & Workflow**<br/>
+  <!-- TOOLS (DENGAN ANIMASI TEKS BERJALAN) -->
+  [![Tools](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2000&pause=1000&color=A855F7&vCenter=true&width=300&height=35&lines=🧰+Tools+%26+Workflow;Git,+VS+Code;Figma+Design)](https://git.io/typing-svg)
+  <br/>
   <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
 
 </div>
+
 
 ### 📊 GitHub Stats
 
