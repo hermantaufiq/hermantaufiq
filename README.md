@@ -35,8 +35,6 @@ console.log("Let's build something awesome! 🚀");
   <br/><br/>
 
  <div align="center">
-  
-
 
   <!-- FRONTEND (DENGAN ANIMASI TEKS BERJALAN) -->
   [![Frontend](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2000&pause=1000&color=A855F7&vCenter=true&width=300&height=35&lines=🎨+Frontend+Skills;HTML,+CSS,+JavaScript;React+%26+Tailwind)](https://git.io/typing-svg)
