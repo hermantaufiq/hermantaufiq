@@ -29,11 +29,12 @@ console.log("Let's build something awesome! 🚀");
 
 ### 🛠️ Tech Stack & Tools
 
-<p align="left">
-  <!-- Animasi Bongo Cat di sebelah kanan -->
-  <img align="right" src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="200" alt="Bongo Cat Coding" />
+<div align="center">
+  
+  <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="180" alt="Bongo Cat Coding" />
+  <br/><br/>
 
-  <!-- Frontend -->
+  **🎨 Frontend**<br/>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
@@ -42,7 +43,7 @@ console.log("Let's build something awesome! 🚀");
   
   <br/><br/>
   
-  <!-- Backend & Database -->
+  **⚙️ Backend & Database**<br/>
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
@@ -50,15 +51,12 @@ console.log("Let's build something awesome! 🚀");
   
   <br/><br/>
   
-  <!-- Tools & Workflow -->
+  **🧰 Tools & Workflow**<br/>
   <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
-</p>
 
-<br/>
-
-<div align="center">
+</div>
 
 ### 📊 GitHub Stats
 
