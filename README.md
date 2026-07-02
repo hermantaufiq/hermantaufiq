@@ -266,9 +266,9 @@ Sunday      ████████░░░░░░░░░ 4 hrs
 # 📌 Pinned Repositories
 <div align="center">
 <a href="https://github.com/hermantaufiq/AI-Expense-Tracker"><img src="profile/pin-ai-expense-tracker.svg"/></a>
-<a href="https://github.com/hermantaufiq/Smart-Village"><img src="profile/pin-smart-village.svg"/></a>
-<a href="https://github.com/hermantaufiq/Portfolio"><img src="profile/pin-portfolio.svg"/></a>
-<a href="https://github.com/hermantaufiq/Basmati-Website"><img src="profile/pin-basmati-website.svg"/></a>
+<a href="https://github.com/hermantaufiq/Kostpro"><img src="profile/pin-kostpro.svg"/></a>
+<a href="https://github.com/hermantaufiq/Tugas-Sig"><img src="profile/pin-tugas-sig.svg"/></a>
+<a href="https://github.com/hermantaufiq/Nlp-Command-Parser"><img src="profile/pin-nlp-command-parser.svg"/></a>
 </div>
 
 ---
