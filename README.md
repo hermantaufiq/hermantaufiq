@@ -155,11 +155,8 @@ Currently Learning :
 ---
 
 # 🏆 GitHub Trophy
-
 <div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=hermantaufiq&theme=tokyonight&no-frame=true&row=2&column=4"/>
-
+<img src="profile/trophy.svg"/>
 </div>
 
 ---
