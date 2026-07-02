@@ -53,11 +53,42 @@ jobs:
           path: profile/pin-nlp-command-parser.svg
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Generate trophy
-        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
-        with:
-          username: ${{ github.repository_owner }}
-          output_path: profile/trophy.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          USERNAME="${{ github.repository_owner }}"
+          TOKEN="${{ secrets.GITHUB_TOKEN }}"
+
+          USER_JSON=$(curl -s -H "Authorization: token $TOKEN" "https://api.github.com/users/$USERNAME")
+          REPOS=$(echo "$USER_JSON" | jq -r '.public_repos')
+          FOLLOWERS=$(echo "$USER_JSON" | jq -r '.followers')
+          JOINED=$(echo "$USER_JSON" | jq -r '.created_at' | cut -c1-4)
+          STARS=$(curl -s -H "Authorization: token $TOKEN" "https://api.github.com/users/$USERNAME/repos?per_page=100" | jq '[.[].stargazers_count] | add // 0')
+
+          mkdir -p profile
+          cat > profile/trophy.svg << EOF
+          <svg width="700" height="150" viewBox="0 0 700 150" xmlns="http://www.w3.org/2000/svg">
+            <style>
+              .box { fill:#1a1b27; stroke:#7aa2f7; stroke-width:1.5; }
+              .title { font: 600 14px 'Segoe UI', sans-serif; fill:#7aa2f7; }
+              .value { font: 700 30px 'Segoe UI', sans-serif; fill:#ffffff; }
+            </style>
+            <rect class="box" x="10" y="10" width="160" height="130" rx="12"/>
+            <text x="90" y="50" text-anchor="middle" class="title">Repositories</text>
+            <text x="90" y="95" text-anchor="middle" class="value">$REPOS</text>
+
+            <rect class="box" x="180" y="10" width="160" height="130" rx="12"/>
+            <text x="260" y="50" text-anchor="middle" class="title">Stars</text>
+            <text x="260" y="95" text-anchor="middle" class="value">$STARS</text>
+
+            <rect class="box" x="350" y="10" width="160" height="130" rx="12"/>
+            <text x="430" y="50" text-anchor="middle" class="title">Followers</text>
+            <text x="430" y="95" text-anchor="middle" class="value">$FOLLOWERS</text>
+
+            <rect class="box" x="520" y="10" width="160" height="130" rx="12"/>
+            <text x="600" y="50" text-anchor="middle" class="title">Joined</text>
+            <text x="600" y="95" text-anchor="middle" class="value">$JOINED</text>
+          </svg>
+          EOF
       - name: Commit cards
         run: |
           git config user.name "github-actions"
