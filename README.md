@@ -264,25 +264,11 @@ Sunday      ████████░░░░░░░░░ 4 hrs
 ---
 
 # 📌 Pinned Repositories
-
 <div align="center">
-
-<a href="https://github.com/hermantaufiq">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=hermantaufiq&repo=AI-Expense-Tracker&theme=tokyonight&hide_border=true"/>
-</a>
-
-<a href="https://github.com/hermantaufiq">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=hermantaufiq&repo=Smart-Village&theme=tokyonight&hide_border=true"/>
-</a>
-
-<a href="https://github.com/hermantaufiq">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=hermantaufiq&repo=Portfolio&theme=tokyonight&hide_border=true"/>
-</a>
-
-<a href="https://github.com/hermantaufiq">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=hermantaufiq&repo=Basmati-Website&theme=tokyonight&hide_border=true"/>
-</a>
-
+<a href="https://github.com/hermantaufiq/AI-Expense-Tracker"><img src="profile/pin-ai-expense-tracker.svg"/></a>
+<a href="https://github.com/hermantaufiq/Smart-Village"><img src="profile/pin-smart-village.svg"/></a>
+<a href="https://github.com/hermantaufiq/Portfolio"><img src="profile/pin-portfolio.svg"/></a>
+<a href="https://github.com/hermantaufiq/Basmati-Website"><img src="profile/pin-basmati-website.svg"/></a>
 </div>
 
 ---
