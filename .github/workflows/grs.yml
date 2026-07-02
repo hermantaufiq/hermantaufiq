@@ -31,26 +31,26 @@ jobs:
           options: username=${{ github.repository_owner }}&repo=AI-Expense-Tracker&theme=tokyonight&hide_border=true
           path: profile/pin-ai-expense-tracker.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Generate pinned repo card - Smart Village
+      - name: Generate pinned repo card - Kostpro
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: username=${{ github.repository_owner }}&repo=Smart-Village&theme=tokyonight&hide_border=true
-          path: profile/pin-smart-village.svg
+          options: username=${{ github.repository_owner }}&repo=Kostpro&theme=tokyonight&hide_border=true
+          path: profile/pin-kostpro.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Generate pinned repo card - Portfolio
+      - name: Generate pinned repo card - Tugas Sig
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: username=${{ github.repository_owner }}&repo=Portfolio&theme=tokyonight&hide_border=true
-          path: profile/pin-portfolio.svg
+          options: username=${{ github.repository_owner }}&repo=Tugas-Sig&theme=tokyonight&hide_border=true
+          path: profile/pin-tugas-sig.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Generate pinned repo card - Basmati Website
+      - name: Generate pinned repo card - Nlp Command Parser
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: username=${{ github.repository_owner }}&repo=Basmati-Website&theme=tokyonight&hide_border=true
-          path: profile/pin-basmati-website.svg
+          options: username=${{ github.repository_owner }}&repo=Nlp-Command-Parser&theme=tokyonight&hide_border=true
+          path: profile/pin-nlp-command-parser.svg
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit cards
         run: |
