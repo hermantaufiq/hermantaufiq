@@ -10,61 +10,158 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-      - name: Generate stats card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true
-          path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Generate top-langs card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&theme=tokyonight&hide_border=true
-          path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Generate pinned repo card - AI Expense Tracker
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: pin
-          options: username=${{ github.repository_owner }}&repo=AI-Expense-Tracker&theme=tokyonight&hide_border=true
-          path: profile/pin-ai-expense-tracker.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Generate pinned repo card - Kostpro
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: pin
-          options: username=${{ github.repository_owner }}&repo=Kostpro&theme=tokyonight&hide_border=true
-          path: profile/pin-kostpro.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Generate pinned repo card - Tugas Sig
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: pin
-          options: username=${{ github.repository_owner }}&repo=Tugas-Sig&theme=tokyonight&hide_border=true
-          path: profile/pin-tugas-sig.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Generate pinned repo card - Nlp Command Parser
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: pin
-          options: username=${{ github.repository_owner }}&repo=Nlp-Command-Parser&theme=tokyonight&hide_border=true
-          path: profile/pin-nlp-command-parser.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Generate trophy
+
+      - name: Generate all profile cards
+        env:
+          USERNAME: ${{ github.repository_owner }}
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -e
-          USERNAME="${{ github.repository_owner }}"
-          TOKEN="${{ secrets.GITHUB_TOKEN }}"
+          mkdir -p profile
+          AUTH="Authorization: token $TOKEN"
 
-          USER_JSON=$(curl -s -H "Authorization: token $TOKEN" "https://api.github.com/users/$USERNAME")
-          REPOS=$(echo "$USER_JSON" | jq -r '.public_repos')
+          color_for() {
+            case "$1" in
+              JavaScript) echo "#f1e05a" ;;
+              TypeScript) echo "#3178c6" ;;
+              PHP) echo "#4F5D95" ;;
+              Blade) echo "#f7523f" ;;
+              HTML) echo "#e34c26" ;;
+              CSS) echo "#563d7c" ;;
+              Python) echo "#3572A5" ;;
+              Java) echo "#b07219" ;;
+              Kotlin) echo "#A97BFF" ;;
+              "C++") echo "#f34b7d" ;;
+              "Jupyter Notebook") echo "#DA5B0B" ;;
+              Dart) echo "#00B4AB" ;;
+              Vue) echo "#41b883" ;;
+              *) echo "#8e8e8e" ;;
+            esac
+          }
+
+          xml_safe() {
+            local s="$1"
+            s="${s//&/&amp;}"
+            s="${s//</&lt;}"
+            s="${s//>/&gt;}"
+            s="${s//\"/&quot;}"
+            echo "$s"
+          }
+
+          # ---- user + repos data ----
+          USER_JSON=$(curl -s -H "$AUTH" "https://api.github.com/users/$USERNAME")
+          PUBLIC_REPOS=$(echo "$USER_JSON" | jq -r '.public_repos')
           FOLLOWERS=$(echo "$USER_JSON" | jq -r '.followers')
           JOINED=$(echo "$USER_JSON" | jq -r '.created_at' | cut -c1-4)
-          STARS=$(curl -s -H "Authorization: token $TOKEN" "https://api.github.com/users/$USERNAME/repos?per_page=100" | jq '[.[].stargazers_count] | add // 0')
 
-          mkdir -p profile
+          REPOS_JSON=$(curl -s -H "$AUTH" "https://api.github.com/users/$USERNAME/repos?per_page=100")
+          STARS=$(echo "$REPOS_JSON" | jq '[.[].stargazers_count] | add // 0')
+          FORKS=$(echo "$REPOS_JSON" | jq '[.[].forks_count] | add // 0')
+
+          # ---- stats.svg ----
+          cat > profile/stats.svg << EOF
+          <svg width="440" height="150" viewBox="0 0 440 150" xmlns="http://www.w3.org/2000/svg">
+            <style>
+              .bg { fill:#1a1b27; stroke:#7aa2f7; stroke-width:1.5; }
+              .title { font: 600 13px 'Segoe UI', sans-serif; fill:#7aa2f7; }
+              .value { font: 700 26px 'Segoe UI', sans-serif; fill:#ffffff; }
+            </style>
+            <rect class="bg" x="10" y="10" width="100" height="130" rx="12"/>
+            <text x="60" y="50" text-anchor="middle" class="title">Repos</text>
+            <text x="60" y="90" text-anchor="middle" class="value">$PUBLIC_REPOS</text>
+
+            <rect class="bg" x="120" y="10" width="100" height="130" rx="12"/>
+            <text x="170" y="50" text-anchor="middle" class="title">Stars</text>
+            <text x="170" y="90" text-anchor="middle" class="value">$STARS</text>
+
+            <rect class="bg" x="230" y="10" width="100" height="130" rx="12"/>
+            <text x="280" y="50" text-anchor="middle" class="title">Forks</text>
+            <text x="280" y="90" text-anchor="middle" class="value">$FORKS</text>
+
+            <rect class="bg" x="340" y="10" width="90" height="130" rx="12"/>
+            <text x="385" y="50" text-anchor="middle" class="title">Followers</text>
+            <text x="385" y="90" text-anchor="middle" class="value">$FOLLOWERS</text>
+          </svg>
+          EOF
+
+          # ---- top-langs.svg ----
+          mapfile -t REPO_LIST < <(echo "$REPOS_JSON" | jq -r '.[] | select(.fork==false) | .name')
+
+          declare -A LANG_BYTES
+          for repo in "${REPO_LIST[@]}"; do
+            LANGS=$(curl -s -H "$AUTH" "https://api.github.com/repos/$USERNAME/$repo/languages")
+            while IFS=$'\t' read -r lang bytes; do
+              [ -z "$lang" ] && continue
+              LANG_BYTES["$lang"]=$(( ${LANG_BYTES["$lang"]:-0} + bytes ))
+            done < <(echo "$LANGS" | jq -r 'to_entries[] | "\(.key)\t\(.value)"')
+          done
+
+          TOTAL=0
+          for l in "${!LANG_BYTES[@]}"; do TOTAL=$(( TOTAL + LANG_BYTES[$l] )); done
+
+          SORTED=$(for l in "${!LANG_BYTES[@]}"; do printf "%s\t%s\n" "$l" "${LANG_BYTES[$l]}"; done | sort -t$'\t' -k2 -nr | head -6)
+
+          Y=40
+          LEGEND=""
+          while IFS=$'\t' read -r lang bytes; do
+            [ -z "$lang" ] && continue
+            PCT=$(awk -v b="$bytes" -v t="$TOTAL" 'BEGIN { printf "%.1f", (t>0 ? b/t*100 : 0) }')
+            COLOR=$(color_for "$lang")
+            LEGEND="$LEGEND<circle cx=\"15\" cy=\"$Y\" r=\"5\" fill=\"$COLOR\"/><text x=\"28\" y=\"$((Y+4))\" class=\"lang\">$(xml_safe "$lang") $PCT%</text>"
+            Y=$((Y+28))
+          done <<< "$SORTED"
+
+          cat > profile/top-langs.svg << EOF
+          <svg width="300" height="$((Y+10))" viewBox="0 0 300 $((Y+10))" xmlns="http://www.w3.org/2000/svg">
+            <style>
+              .bg { fill:#1a1b27; stroke:#7aa2f7; stroke-width:1.5; }
+              .header { font: 600 16px 'Segoe UI', sans-serif; fill:#7aa2f7; }
+              .lang { font: 400 13px 'Segoe UI', sans-serif; fill:#ffffff; }
+            </style>
+            <rect class="bg" x="0.5" y="0.5" width="299" height="$((Y+9))" rx="12"/>
+            <text x="15" y="22" class="header">Most Used Languages</text>
+            $LEGEND
+          </svg>
+          EOF
+
+          # ---- pinned repo cards ----
+          declare -A PIN_MAP=(
+            ["AI-Expense-Tracker"]="pin-ai-expense-tracker"
+            ["Kostpro"]="pin-kostpro"
+            ["Tugas-Sig"]="pin-tugas-sig"
+            ["Nlp-Command-Parser"]="pin-nlp-command-parser"
+          )
+
+          for repo in "${!PIN_MAP[@]}"; do
+            FILE="${PIN_MAP[$repo]}"
+            DATA=$(curl -s -H "$AUTH" "https://api.github.com/repos/$USERNAME/$repo")
+            DESC=$(echo "$DATA" | jq -r '.description // "No description provided"' | cut -c1-60)
+            DESC=$(xml_safe "$DESC")
+            LANG=$(echo "$DATA" | jq -r '.language // "N/A"')
+            RSTARS=$(echo "$DATA" | jq -r '.stargazers_count // 0')
+            RFORKS=$(echo "$DATA" | jq -r '.forks_count // 0')
+            RCOLOR=$(color_for "$LANG")
+
+            cat > "profile/$FILE.svg" << EOF
+          <svg width="400" height="120" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+            <style>
+              .bg { fill:#1a1b27; stroke:#7aa2f7; stroke-width:1.5; }
+              .header { font: 600 16px 'Segoe UI', sans-serif; fill:#7aa2f7; }
+              .desc { font: 400 12px 'Segoe UI', sans-serif; fill:#ffffff; }
+              .meta { font: 400 12px 'Segoe UI', sans-serif; fill:#b0b0b0; }
+            </style>
+            <rect class="bg" x="0.5" y="0.5" width="399" height="119" rx="10"/>
+            <text x="20" y="30" class="header">$(xml_safe "$repo")</text>
+            <text x="20" y="55" class="desc">$DESC</text>
+            <circle cx="25" cy="90" r="6" fill="$RCOLOR"/>
+            <text x="38" y="94" class="meta">$LANG</text>
+            <text x="150" y="94" class="meta">★ $RSTARS</text>
+            <text x="220" y="94" class="meta">Forks: $RFORKS</text>
+          </svg>
+          EOF
+          done
+
+          # ---- trophy.svg ----
           cat > profile/trophy.svg << EOF
           <svg width="700" height="150" viewBox="0 0 700 150" xmlns="http://www.w3.org/2000/svg">
             <style>
@@ -74,7 +171,7 @@ jobs:
             </style>
             <rect class="box" x="10" y="10" width="160" height="130" rx="12"/>
             <text x="90" y="50" text-anchor="middle" class="title">Repositories</text>
-            <text x="90" y="95" text-anchor="middle" class="value">$REPOS</text>
+            <text x="90" y="95" text-anchor="middle" class="value">$PUBLIC_REPOS</text>
 
             <rect class="box" x="180" y="10" width="160" height="130" rx="12"/>
             <text x="260" y="50" text-anchor="middle" class="title">Stars</text>
@@ -89,6 +186,7 @@ jobs:
             <text x="600" y="95" text-anchor="middle" class="value">$JOINED</text>
           </svg>
           EOF
+
       - name: Commit cards
         run: |
           git config user.name "github-actions"
