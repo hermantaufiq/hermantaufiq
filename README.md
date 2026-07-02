@@ -2,11 +2,11 @@
 
 # 👋 Hello, I'm SUPER_POKE
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=28&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Full+Stack+Web+Developer;Laravel+13+Enthusiast;Artificial+Intelligence+Explorer;Open+Source+Learner;Welcome+to+My+GitHub+Profile!" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=28&duration=3000&pause=1000&color=7aa2f7&center=true&vCenter=true&width=700&lines=Full+Stack+Web+Developer;Laravel+13+Enthusiast;Artificial+Intelligence+Explorer;Open+Source+Learner;Welcome+to+My+GitHub+Profile!" alt="Typing SVG" />
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C6FF,100:0072FF&height=220&section=header&text=SUPER_POKE&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20|%20Laravel%20Developer%20|%20AI%20Explorer&descAlignY=58"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,100:bb9af7&height=220&section=header&text=SUPER_POKE&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20|%20Laravel%20Developer%20|%20AI%20Explorer&descAlignY=58" alt="Header Banner" />
 
 </div>
 
