@@ -14,7 +14,7 @@
 
   <rect class="box" x="350" y="10" width="160" height="130" rx="12"/>
   <text x="430" y="50" text-anchor="middle" class="title">Followers</text>
-  <text x="430" y="95" text-anchor="middle" class="value">2</text>
+  <text x="430" y="95" text-anchor="middle" class="value">3</text>
 
   <rect class="box" x="520" y="10" width="160" height="130" rx="12"/>
   <text x="600" y="50" text-anchor="middle" class="title">Joined</text>

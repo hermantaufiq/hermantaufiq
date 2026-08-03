@@ -18,5 +18,5 @@
 
   <rect class="bg" x="340" y="10" width="90" height="130" rx="12"/>
   <text x="385" y="50" text-anchor="middle" class="title">Followers</text>
-  <text x="385" y="90" text-anchor="middle" class="value">2</text>
+  <text x="385" y="90" text-anchor="middle" class="value">3</text>
 </svg>
