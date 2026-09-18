@@ -12,7 +12,7 @@
 
 ---
 
-# 🚀 About Me
+## 🚀 About Me
 
 ```yaml
 Name          : Herman Taufiq
@@ -37,217 +37,82 @@ Currently Learning :
 
 ---
 
-# 💻 Tech Stack
+## 💻 Tech Stack
 
-## 🌐 Frontend
+**Frontend**
 
-<p align="left">
-<img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,tailwind,react"/>
-</p>
+<img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,tailwind,react" alt="Frontend" />
 
----
+**Backend**
 
-## ⚙️ Backend
+<img src="https://skillicons.dev/icons?i=php,laravel,nodejs" alt="Backend" />
 
-<p align="left">
-<img src="https://skillicons.dev/icons?i=php,laravel,nodejs"/>
-</p>
+**Database**
 
----
+<img src="https://skillicons.dev/icons?i=mysql,firebase" alt="Database" />
 
-## 🗄 Database
+**Tools**
 
-<p align="left">
-<img src="https://skillicons.dev/icons?i=mysql,firebase"/>
-</p>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,figma,postman,linux" alt="Tools" />
 
 ---
 
-## 🛠 Tools
-
-<p align="left">
-<img src="https://skillicons.dev/icons?i=git,github,vscode,figma,postman,linux"/>
-</p>
-
----
-
-# 📚 Currently Studying
+## 📚 Currently Studying
 
 <p>
-
-<img src="https://img.shields.io/badge/Laravel_13-FF2D20?style=for-the-badge&logo=laravel&logoColor=white">
-
-<img src="https://img.shields.io/badge/PHP_8-777BB4?style=for-the-badge&logo=php&logoColor=white">
-
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
-
-<img src="https://img.shields.io/badge/Artificial_Intelligence-6A5ACD?style=for-the-badge">
-
-<img src="https://img.shields.io/badge/UI/UX-0ACF83?style=for-the-badge&logo=figma&logoColor=white">
-
+<img src="https://img.shields.io/badge/Laravel_13-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel 13">
+<img src="https://img.shields.io/badge/PHP_8-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8">
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+<img src="https://img.shields.io/badge/Artificial_Intelligence-6A5ACD?style=for-the-badge" alt="AI">
+<img src="https://img.shields.io/badge/UI/UX-0ACF83?style=for-the-badge&logo=figma&logoColor=white" alt="UI/UX">
 </p>
 
 ---
 
-# 🌱 What I'm Doing
+## 📊 GitHub Analytics
 
-- 🚀 Building Full Stack Laravel Applications
-- 🤖 Learning Artificial Intelligence
-- 📱 Developing Responsive Web Applications
-- 📚 Studying Software Engineering
-- 💡 Exploring New Technologies Every Day
-
----
-
-# 🎯 2026 Roadmap
-
-| Goal | Status |
-|------|--------|
-| Master Laravel 13 | 🔄 In Progress |
-| Build AI Projects | 🔄 In Progress |
-| Learn Docker | ⏳ Planned |
-| Deploy Real Projects | ⏳ Planned |
-| Graduate with Best Thesis | 🎯 Target |
-
----
-
-# 💬 Favorite Quote
-
-> **"Code. Learn. Improve. Repeat."**
-
----
-
-<div align="center">
-
-### ⭐ Thanks for Visiting My Profile ⭐
-
-</div>
-
----
-
-
-# 📊 GitHub Analytics
 <div align="center">
 <img src="profile/stats.svg" alt="GitHub Stats" />
 <img src="profile/top-langs.svg" alt="Top Languages" />
 </div>
 
----
+<div align="center">
+<img src="https://streak-stats.demolab.com?user=hermantaufiq&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</div>
 
-# 🔥 GitHub Streak
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=hermantaufiq&theme=tokyo-night&hide_border=true" alt="Contribution Graph" />
+</div>
+
+<div align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=hermantaufiq&theme=tokyonight&no-frame=true&row=2&column=4" alt="GitHub Trophy" />
+</div>
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=hermantaufiq&theme=tokyonight&hide_border=true"/>
+![Profile Views](https://komarev.com/ghpvc/?username=hermantaufiq&style=for-the-badge&color=0e75b6)
+![Followers](https://img.shields.io/github/followers/hermantaufiq?style=for-the-badge)
 
 </div>
 
 ---
 
-# 📈 Contribution Graph
+## 🐍 Contribution Snake
 
 <div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=hermantaufiq&theme=tokyo-night&hide_border=true"/>
-
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/hermantaufiq/hermantaufiq/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/hermantaufiq/hermantaufiq/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub Contribution Snake"
+    src="https://raw.githubusercontent.com/hermantaufiq/hermantaufiq/output/github-contribution-grid-snake-dark.svg" />
+</picture>
 </div>
 
 ---
 
-# 🏆 GitHub Trophy
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=hermantaufiq&theme=tokyonight&no-frame=true&row=2&column=4"/>
-</div>
-
----
-
-# 💡 Developer Metrics
-
-<div align="center">
-
-![](https://komarev.com/ghpvc/?username=hermantaufiq&style=for-the-badge&color=0e75b6)
-
-![](https://img.shields.io/github/followers/hermantaufiq?style=for-the-badge)
-
-![](https://img.shields.io/github/stars/hermantaufiq?style=for-the-badge)
-
-</div>
-
----
-
-# ⚡ Coding Activity
-
-```text
-Laravel        ████████████████████ 90%
-
-PHP            ██████████████████░░ 85%
-
-JavaScript     ███████████████░░░░░ 70%
-
-MySQL          █████████████████░░░ 80%
-
-HTML/CSS       ███████████████████░ 88%
-
-AI             ████████████░░░░░░░░ 60%
-```
-
----
-
-# 📅 Weekly Development Breakdown
-
-```text
-Monday      ████████████░░░░░ 6 hrs
-
-Tuesday     █████████████░░░░ 7 hrs
-
-Wednesday   ██████████░░░░░░░ 5 hrs
-
-Thursday    ███████████████░░ 8 hrs
-
-Friday      █████████████░░░░ 7 hrs
-
-Saturday    ████████████████░ 9 hrs
-
-Sunday      ████████░░░░░░░░░ 4 hrs
-```
-
----
-
-# 🚀 Development Focus
-
-| Category | Progress |
-|----------|---------:|
-| Laravel Development | ██████████ 95% |
-| Backend API | █████████ 90% |
-| Database Design | ████████ 85% |
-| Frontend Development | ████████ 80% |
-| Artificial Intelligence | ██████ 60% |
-| Docker & Deployment | ████ 40% |
-
----
-
-# 🎖 Achievements
-
-- 🥇 Full Stack Web Development
-- 🚀 Laravel 13 Projects
-- 🤖 AI Enthusiast
-- 💻 Open Source Learner
-- 🌱 Continuous Learning
-- 📚 Information Technology Student
-
----
-
-<div align="center">
-
-### 📈 Keep Coding • Keep Learning • Keep Growing 🚀
-
-</div>
-
---- 
-
-# 🚀 Featured Projects
-
-<div align="center">
+## 🚀 Featured Projects
 
 | Project | Description | Tech Stack |
 |---------|-------------|------------|
@@ -256,163 +121,52 @@ Sunday      ████████░░░░░░░░░ 4 hrs
 | 🌾 **Basmati Rice Website** | Company profile & SEO landing page | Laravel • Tailwind CSS |
 | 🌐 **Personal Portfolio** | Personal portfolio website | Laravel • JavaScript |
 
-</div>
-
 ---
 
-# 📌 Pinned Repositories
+## 📌 Pinned Repositories
+
 <div align="center">
-<a href="https://github.com/hermantaufiq/AI-Expense-Tracker"><img src="profile/pin-ai-expense-tracker.svg"/></a>
-<a href="https://github.com/hermantaufiq/Kostpro"><img src="profile/pin-kostpro.svg"/></a>
-<a href="https://github.com/hermantaufiq/Tugas-Sig"><img src="profile/pin-tugas-sig.svg"/></a>
-<a href="https://github.com/hermantaufiq/Nlp-Command-Parser"><img src="profile/pin-nlp-command-parser.svg"/></a>
+<a href="https://github.com/hermantaufiq/AI-Expense-Tracker"><img src="profile/pin-ai-expense-tracker.svg" alt="AI Expense Tracker" /></a>
+<a href="https://github.com/hermantaufiq/Kostpro"><img src="profile/pin-kostpro.svg" alt="Kostpro" /></a>
+<a href="https://github.com/hermantaufiq/Tugas-Sig"><img src="profile/pin-tugas-sig.svg" alt="Tugas SIG" /></a>
+<a href="https://github.com/hermantaufiq/Nlp-Command-Parser"><img src="profile/pin-nlp-command-parser.svg" alt="NLP Command Parser" /></a>
 </div>
 
 ---
 
-# 💼 What I Can Build
-
-✅ Company Profile Website
-
-✅ Landing Page
-
-✅ Dashboard Admin
-
-✅ CRUD Application
-
-✅ Authentication System
-
-✅ REST API
-
-✅ AI-Based Web Application
-
-✅ Responsive Website
-
-✅ Database Design
-
-✅ Deployment (Learning)
-
----
-
-# 🛠 Development Workflow
+## ⚡ Coding Activity
 
 ```text
-Idea
-   │
-   ▼
-Research
-   │
-   ▼
-UI / UX Design
-   │
-   ▼
-Database Design
-   │
-   ▼
-Laravel Development
-   │
-   ▼
-Testing
-   │
-   ▼
-Deployment
+Laravel        ████████████████████ 90%
+PHP            ██████████████████░░ 85%
+HTML/CSS       ███████████████████░ 88%
+MySQL          █████████████████░░░ 80%
+JavaScript     ███████████████░░░░░ 70%
+AI             ████████████░░░░░░░░ 60%
 ```
 
 ---
 
-# 📖 Currently Reading
+## 💼 What I Can Build
 
-- 📘 Laravel Documentation
-- 📘 PHP Official Documentation
-- 📘 Clean Code
-- 📘 Software Engineering
-- 📘 Artificial Intelligence
-- 📘 REST API Design
+✅ Company Profile Website &nbsp; ✅ Landing Page &nbsp; ✅ Dashboard Admin
 
----
+✅ CRUD Application &nbsp; ✅ Authentication System &nbsp; ✅ REST API
 
-# 🎓 Certifications (Coming Soon)
-
-🏅 Laravel
-
-🏅 PHP
-
-🏅 JavaScript
-
-🏅 MySQL
-
-🏅 Docker
-
-🏅 AI
+✅ AI-Based Web Application &nbsp; ✅ Responsive Website &nbsp; ✅ Database Design
 
 ---
 
-# 📫 Connect With Me
+## 🛠 Development Workflow
 
-<div align="center">
-
-<a href="https://github.com/hermantaufiq">
-<img src="https://skillicons.dev/icons?i=github"/>
-</a>
-
-<a href="mailto:your-email@gmail.com">
-<img src="https://skillicons.dev/icons?i=gmail"/>
-</a>
-
-<a href="https://www.linkedin.com/in/your-linkedin">
-<img src="https://skillicons.dev/icons?i=linkedin"/>
-</a>
-
-<a href="https://www.instagram.com/gateway_502">
-<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
-</a>
-
-</div>
+```text
+Idea → Research → UI/UX Design → Database Design
+     → Laravel Development → Testing → Deployment
+```
 
 ---
 
-# ❤️ Support
-
-If you like my work, consider giving ⭐ to my repositories.
-
-Every ⭐ motivates me to build more useful open-source projects.
-
----
-
-<div align="center">
-
-## 🌟 Thanks for visiting my GitHub Profile!
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6A11CB,100:2575FC&height=120&section=footer"/>
-
-</div>
-
----
-
-# 🐍 Contribution Snake
-
-<div align="center">
-
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/hermantaufiq/hermantaufiq/output/github-contribution-grid-snake-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/hermantaufiq/hermantaufiq/output/github-contribution-grid-snake.svg"
-  />
-  <img
-    alt="GitHub Contribution Snake"
-    src="https://raw.githubusercontent.com/hermantaufiq/hermantaufiq/output/github-contribution-grid-snake-dark.svg"
-  />
-</picture>
-
-</div>
-
----
-
-# 📅 2026 Goals
+## 🎯 2026 Goals
 
 | Goal | Progress |
 |------|----------|
@@ -425,66 +179,48 @@ Every ⭐ motivates me to build more useful open-source projects.
 
 ---
 
-# 🎯 My Development Principles
+## 📖 Currently Reading
+
+📘 Laravel Documentation &nbsp;•&nbsp; 📘 PHP Official Documentation &nbsp;•&nbsp; 📘 Clean Code
+
+📘 Software Engineering &nbsp;•&nbsp; 📘 Artificial Intelligence &nbsp;•&nbsp; 📘 REST API Design
+
+---
+
+## 🎮 Fun Facts
+
+- ☕ Coffee makes coding more enjoyable.
+- 🌙 I enjoy coding at night.
+- 📚 I learn something new every day.
+- 💡 Clean code is better than clever code.
+
+---
+
+## 💬 Favorite Quote
+
+> **"First, solve the problem. Then, write the code."**
+
+---
+
+## 📫 Connect With Me
 
 <div align="center">
 
-💡 Learn Every Day
-
-🚀 Build Real Projects
-
-📚 Never Stop Improving
-
-🤝 Share Knowledge
-
-🌍 Contribute to Open Source
+<a href="https://github.com/hermantaufiq"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" /></a>
+<a href="mailto:GANTI_EMAIL_KAMU@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" alt="Gmail" /></a>
+<a href="https://www.linkedin.com/in/GANTI_USERNAME_LINKEDIN"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" /></a>
+<a href="https://www.instagram.com/gateway_502"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
 
 </div>
 
 ---
 
-# 📊 Profile Summary
-
-```text
-👨‍💻 Full Stack Developer
-
-⚡ Laravel Enthusiast
-
-🤖 AI Explorer
-
-📚 Information Technology Student
-
-🇮🇩 Indonesia
-```
-
----
-
-# 💬 Random Developer Quote
-
-> "First, solve the problem. Then, write the code."
-
----
-
-# 🎮 Fun Facts
-
-- ☕ Coffee makes coding more enjoyable.
-- 🌙 I enjoy coding at night.
-- 📚 I learn something new every day.
-- 🚀 I like building useful web applications.
-- 💡 Clean code is better than clever code.
-
----
-
-# 🌟 Thank You
-
 <div align="center">
 
-## ⭐ Thank you for visiting my GitHub profile!
+### ⭐ Thanks for visiting my GitHub profile!
 
-If you like my projects, don't forget to leave a ⭐.
+If you like my projects, don't forget to leave a ⭐
 
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=gradient&text=See%20You%20Again!&fontSize=40&fontColor=ffffff&animation=twinkling&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=gradient&text=See%20You%20Again!&fontSize=40&fontColor=ffffff&animation=twinkling&section=footer" alt="Footer" />
 
 </div>
